@@ -7,6 +7,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const totalPage = Math.ceil(counts / 12);
 
   return new Array(totalPage).fill(0).map((_, index) => ({
-    url: `https://aspoem.com/list/${index + 1}`,
+    url: `https://poems.amonxu.com/list/${index + 1}`,
   }));
 }

@@ -162,14 +162,8 @@ export function Content({
           {
             title: "Email",
             href: "mailto:gosuxm@gmail.com",
-            icon: <MailIcon className="h-6 w-6" strokeWidth={1.5} />,
-          },
-
-          {
-            title: "留言",
-            href: `/${lang}/feedback`,
             icon: (
-              <SendIcon
+              <MailIcon
                 className="h-6 w-6 text-destructive"
                 strokeWidth={1.5}
               />

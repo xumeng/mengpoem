@@ -22,7 +22,7 @@ export default function SortTabs({
           {dict.poem_list.tab_new}
         </Link>
       </ToggleGroupItem>
-      <ToggleGroupItem
+      {/* <ToggleGroupItem
         value="improve"
         className="data-[state=on]:bg-primary data-[state=on]:text-primary-foreground"
         aria-label={dict.poem_list.tab_improve}
@@ -31,7 +31,7 @@ export default function SortTabs({
         <Link href={`?sort=improve`} replace>
           {dict.poem_list.tab_improve}
         </Link>
-      </ToggleGroupItem>
+      </ToggleGroupItem> */}
     </ToggleGroup>
   );
 }

@@ -27,7 +27,7 @@ const CopyButton = (props: Props) => {
           return;
         }
         setCopy(true);
-        const originText = `${poem.content} \n—— 《${poem.title}》${poem.author.dynasty}·${poem.author.name}\n\n【译文】\n${poem.translation} \n\n #aspoem #诗词学习网站`;
+        const originText = `${poem.content} \n\n——《${poem.title}》· ${poem.author.name}\n\n #${poem.title} #Meng诗 #amonxu #mengxu #xumeng`;
 
         const text = `<p>${poem.content.replaceAll(
           "\n",
@@ -41,7 +41,7 @@ const CopyButton = (props: Props) => {
         }</b></a></p><p><b>译文</b></p><p>${poem.translation?.replaceAll(
           "\n",
           "<br/>",
-        )}</p><p> #aspoem #诗词学习网站</p>`;
+        )}</p><p> #Meng诗 #amonxu #mengxu #xumeng</p>`;
 
         const blobHtml = new Blob([text], { type: "text/html" });
         const blobText = new Blob([originText], { type: "text/plain" });
@@ -60,7 +60,7 @@ const CopyButton = (props: Props) => {
       }}
     >
       <ClipboardIcon className="mr-2 h-5 w-5 text-primary" />
-      {copy ? "已复制" : "复制诗词译文"}
+      {copy ? "已复制" : "复制诗词"}
     </Button>
   );
 };

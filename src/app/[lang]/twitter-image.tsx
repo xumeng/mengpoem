@@ -4,7 +4,7 @@ import { ImageResponse } from "next/og";
 export const runtime = "edge";
 
 // Image metadata
-export const alt = "学习古诗词 - aspoem.com";
+export const alt = "学习古诗词 - poems.amonxu.com";
 export const size = {
   width: 1200,
   height: 630,
@@ -29,7 +29,7 @@ export default async function Image() {
         }}
       >
         <span style={{ fontSize: 196 }}>学习古诗词</span>
-        <span style={{ fontSize: 72, opacity: 0.7 }}>aspoem.com</span>
+        <span style={{ fontSize: 72, opacity: 0.7 }}>poems.amonxu.com</span>
       </div>
     ),
     size,

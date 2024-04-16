@@ -23,8 +23,6 @@ import { More } from "./components/more";
 import { getDictionary, type Locale } from "~/dictionaries";
 import "./index.css";
 
-const GoFeedback = dynamic(() => import("./go-feedback"), { ssr: false });
-
 const SaveShareButton = dynamic(() => import("~/components/share"), {
   ssr: false,
 });

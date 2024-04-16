@@ -77,7 +77,7 @@ export default async function GET({
             fontSize: 24,
           }}
         >
-          aspoem
+          Meng 诗 - https://poems.amonxu.comm
         </p>
       </div>
     ),

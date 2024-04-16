@@ -1,6 +1,6 @@
 {
-  "title": "Learn Chinese Poems Website",
-  "description": "aspoem.com is a learning chinese poetry website that offers a comprehensive site search feature, allowing you to quickly search for regulated verse, quatrains, and works by various poets. We have also optimized the display of pinyin annotations, annotations, and vernacular Chinese, making poetry easier to read. Additionally, we provide a poetry printing tool to assist you in better studying ancient poetry. Come and experience the charm of our website!",
+  "title": "Meng Poems Website",
+  "description": "Meng Poems - Poems is a bullet that shoots into the world. Meng Poems records many excellent poetry of Meng Xu",
   "menu": {
     "poem": "Poems",
     "author": "Poets",
@@ -8,10 +8,8 @@
     "contact": "Contact",
     "theme": "Theme",
     "language": "Language",
-    "feedback": "Feedback",
     "print": "Print"
   },
-  "feedback_desc": "You can check the website's update log, future plans, and discussions on new features here. At the same time, you can also leave your suggestions and opinions here.",
   "home": {
     "poem": "Recommended",
     "all_poems": "All Poems"
@@ -23,8 +21,7 @@
     "pinyin_hide": "Hide Pinyin",
     "translation": "Translation",
     "tools": "Tools",
-    "more": "More Explore",
-    "go_feedback": "Go to Feedback"
+    "more": "More Explore"
   },
   "poem_list": {
     "title": "Poem List",

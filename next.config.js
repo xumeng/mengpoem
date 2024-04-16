@@ -14,7 +14,7 @@ const config = {
     return [
       {
         source: "/neutral-card-bg/:path*",
-        destination: "https://r2.aspoem.com/:path*",
+        destination: "https://r2.poems.amonxu.com/:path*",
       },
     ];
   },

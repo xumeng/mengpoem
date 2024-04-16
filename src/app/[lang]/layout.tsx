@@ -26,7 +26,7 @@ export async function generateMetadata({
   return {
     title: {
       template: `%s | ${dict.title}`,
-      default: `AsPoem | ${dict.title}`,
+      default: `Meng 诗 - 诗歌是打向这个世界的子弹 https://poems.amonxu.comm | ${dict.title}`,
     },
     description: dict.description,
     icons: [{ rel: "icon", url: "/favicon.ico" }],

@@ -126,7 +126,7 @@ export default function PreviewPrint({
   });
 
   const title = poem.title;
-  const author = `${poem.author.dynasty}·${poem.author.name}`;
+  const author = `${poem.author.name}`;
 
   const content = poem.content
     .replaceAll("\n", "")
@@ -185,7 +185,7 @@ export default function PreviewPrint({
           {opts.translation && (
             <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
               <span className="text-5xl text-black">译文</span>
-              aspoem.com | 现代化诗词学习网站
+              poems.amonxu.com | Meng 诗 - 诗歌是打向这个世界的子弹
             </p>
           )}
 

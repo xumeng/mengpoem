@@ -28,7 +28,7 @@ export default function DrawWuYanPreview({ data, className, bgImg }: Props) {
         className="z-1 absolute left-0 top-0 h-full w-full"
       />
       <div className="absolute bottom-44 left-24 text-lg text-muted-foreground">
-        aspoem
+        Meng 诗 - https://poems.amonxu.comm
       </div>
       <div className={"relative z-20 flex h-full w-full justify-center py-24"}>
         <div>

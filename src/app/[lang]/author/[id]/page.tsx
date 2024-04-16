@@ -1,4 +1,11 @@
-import { CalendarIcon, ChevronRight, LinkIcon } from "lucide-react";
+import {
+  CalendarIcon,
+  ChevronRight,
+  GithubIcon,
+  LinkIcon,
+  MailIcon,
+  NewspaperIcon,
+} from "lucide-react";
 import { type Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -46,8 +53,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const description = getLangText(
     {
-      "zh-Hans": `${author.name}(${author.namePinYin})，${author.dynasty}代著名诗人，那${author.name}的代表作有哪些呢？${author.name}一生又创作了多少诗词呢？那就跟着我一起来学习${author.name}的诗词吧！`,
-      "zh-Hant": `${author.name}(${author.namePinYin})，${author.dynasty}代著名詩人，那${author.name}的代表作有哪些呢？${author.name}一生又創作了多少詩詞呢？那就跟著我一起來學習${author.name}的詩詞吧！`,
+      "zh-Hans": `${author.name}(${author.namePinYin})，那${author.name}的代表作有哪些呢？${author.name}创作了哪些诗词呢？那就跟着我一起来学习${author.name}的诗词吧！`,
+      "zh-Hant": `${author.name}(${author.namePinYin})，那${author.name}的代表作有哪些呢？${author.name}創作了哪些詩詞呢？那就跟著我一起來學習${author.name}的詩詞吧！`,
     },
     params.lang,
   );
@@ -112,27 +119,18 @@ export default async function Page({ params, searchParams }: Props) {
             {author.introduce}
           </p>
           <div className="mt-8 text-f50">
-            <p className="flex items-center">
+            {/* <p className="flex items-center">
               <CalendarIcon className="h-5 w-5 text-muted-foreground" />
               <span className="ml-2">
                 <span className="text-f50">{author.birthDate ?? "?"}</span>年
                 <span className="mx-2 text-muted-foreground">~</span>
                 <span className="text-f50">{author.deathDate ?? "?"}</span>年
               </span>
-            </p>
-            <p className="mt-2 flex items-center">
-              <LinkIcon className="h-5 w-5 text-muted-foreground" />
-              <Link
-                href={`https://zh.wikipedia.org/wiki/${author.name}`}
-                target="_blank"
-                className="ml-2 text-blue-600 hover:underline"
-              >
-                维基百科/{author.name}
-              </Link>
-            </p>
-            <div className="mt-8 space-x-4 text-f50">
-              <Button variant={"secondary"}>{author.dynasty}朝</Button>
-            </div>
+            </p> */}
+            <p className="mt-2 flex items-center"></p>
+            {/* <div className="mt-8 space-x-4 text-f50">
+              <Button variant={"secondary"}>{author.dynasty}</Button>
+            </div> */}
           </div>
         </div>
       </header>

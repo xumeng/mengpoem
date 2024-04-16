@@ -1,17 +1,15 @@
 {
-  "title": "現代化詩詞學習網站",
-  "description": "aspoem.com 是現代化的詩詞學習網站，提供全站搜索，提供便捷的全站搜索功能，讓您更快地查詢律詩、絕句和各位詩人的作品。我們還優化了拼音標註、注釋和白話文等的展示方式，使詩詞更加易於閱讀。此外，我們還提供了詩詞打印工具，助您更好地學習古代詩詞。快來體驗我們網站的魅力吧！",
+  "title": "Meng 詩 - 詩歌是打向這個世界的子彈",
+  "description": "Meng 詩 - 詩歌是打向這個世界的子彈。Meng 詩記錄下Meng Xu的多篇優秀詩詞作品",
   "menu": {
     "poem": "詩詞",
-    "author": "詩人",
+    "author": "詩作者",
     "tag": "標籤",
     "contact": "聯繫方式",
     "theme": "主題",
     "language": "語言",
-    "feedback": "留言",
     "print": "打印"
   },
-  "feedback_desc": "可以在此處查看網站的更新日誌、未來規劃，以及對新增功能的討論。同時，也可以在此留下您的建議和意見。",
   "home": {
     "poem": "推薦",
     "all_poems": "全部詩詞"
@@ -23,8 +21,7 @@
     "pinyin_hide": "隱藏拼音",
     "translation": "譯文",
     "tools": "工具",
-    "more": "更多探索",
-    "go_feedback": "去反饈"
+    "more": "更多探索"
   },
   "poem_list": {
     "title": "詩詞列表",
@@ -36,10 +33,10 @@
     "tab_improve": "待完善"
   },
   "author": {
-    "title": "詩人"
+    "title": "詩作者"
   },
   "author_detail": {
-    "title": "詩人"
+    "title": "詩作者"
   },
   "search": {
     "placeholder": "查找詩詞、名句",
