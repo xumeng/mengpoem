@@ -6,15 +6,14 @@ import { api } from "~/trpc/react";
 import { useEffect, useState } from "react";
 import { cn } from "~/utils";
 import {
-  Album,
   Check,
   GithubIcon,
-  Rocket,
   Rows2,
   SendIcon,
   Tag,
-  TwitterIcon,
   UserRound,
+  MailIcon,
+  NewspaperIcon,
 } from "lucide-react";
 import { Separator } from "~/components/ui/separator";
 import { Nav } from "~/components/ui/nav";
@@ -73,25 +72,18 @@ export function Content({
             href: `/${lang}`,
           },
           {
-            title: dict.menu.author,
-            label: <span className="font-mono">{authorCount}</span>,
-            icon: UserRound,
-            variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
-            href: `/${lang}/author/list/1`,
-          },
-          {
-            title: dict.menu.ci_pai_ming,
-            icon: Album,
-            label: <span className="font-mono">{tagsCount?.[1]}</span>,
-            variant: /^(\/ci-pai-ming)/.test(pathname) ? "default" : "ghost",
-            href: `/${lang}/ci-pai-ming/1`,
-          },
-          {
             title: dict.menu.tag,
             icon: Tag,
             label: <span className="font-mono">{tagsCount?.[0]}</span>,
             variant: /^(\/tag)/.test(pathname) ? "default" : "ghost",
             href: `/${lang}/tag`,
+          },
+          {
+            title: dict.menu.author,
+            label: <span className="font-mono">{}</span>,
+            icon: UserRound,
+            variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
+            href: `/${lang}/author/3`,
           },
         ]}
       />
@@ -158,20 +150,21 @@ export function Content({
       <nav className="flex space-x-2 p-4">
         {[
           {
+            title: "Blog",
+            href: "https://amonxu.com",
+            icon: <NewspaperIcon className="h-6 w-6" strokeWidth={1.5} />,
+          },
+          {
             title: "GitHub",
-            href: "https://github.com/meetqy/aspoem",
+            href: "https://github.com/xumeng",
             icon: <GithubIcon className="h-6 w-6" strokeWidth={1.5} />,
           },
           {
-            title: "twitter",
-            href: "https://twitter.com/meetqy",
-            icon: <TwitterIcon className="h-6 w-6" strokeWidth={1.5} />,
+            title: "Email",
+            href: "mailto:gosuxm@gmail.com",
+            icon: <MailIcon className="h-6 w-6" strokeWidth={1.5} />,
           },
-          {
-            title: `ProductHunt`,
-            href: "https://www.producthunt.com/products/aspoem-com-learn-chinese-poetry",
-            icon: <Rocket className="h-6 w-6" strokeWidth={1.5} />,
-          },
+
           {
             title: "留言",
             href: `/${lang}/feedback`,

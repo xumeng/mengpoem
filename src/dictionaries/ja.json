@@ -4,7 +4,6 @@
   "menu": {
     "poem": "詩",
     "author": "詩人",
-    "ci_pai_ming": "詞牌名",
     "tag": "タグ",
     "contact": "連絡先",
     "theme": "テーマ",
@@ -25,9 +24,6 @@
     "translation": "翻訳",
     "tools": "ツール",
     "more": "さらに探索",
-    "report_error": "エラーを報告する",
-    "report_error_desc": "エラーを見つけた場合は、「フィードバック」をクリックして修正のためのメッセージを残してください。できるだけ早く対応いたします。",
-    "report_default_placeholder": "エラーの詩:",
     "go_feedback": "フィードバックに移動"
   },
   "poem_list": {
@@ -45,12 +41,8 @@
   "author_detail": {
     "title": "詩人詳細"
   },
-  "ci_pai_ming": {
-    "title_meta": "詞牌名 ページ {0}",
-    "description": "詩の標準的な旋律の名称であり、唐宋時代に詩にしばしば用いられ、固定された形式と音調によって詩のリズムと音調を決定する大部分の音楽の元の名称です。"
-  },
   "search": {
-    "placeholder": "詩人、詩、名言を検索",
+    "placeholder": "詩、名言を検索",
     "empty": "関連する詩が見つかりませんでした"
   },
   "tag": {

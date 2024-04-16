@@ -24,6 +24,7 @@ export default async function IndexPage({
     sort: "updatedAt",
     lang: params.lang,
   });
+  console.log(">>>>>", pageIndex, params.lang, poems);
 
   if (!poems || poems.length === 0) {
     notFound();

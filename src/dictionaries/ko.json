@@ -4,7 +4,6 @@
   "menu": {
     "poem": "시",
     "author": "시인",
-    "ci_pai_ming": "사파명",
     "tag": "태그",
     "contact": "연락처",
     "theme": "주제",
@@ -25,9 +24,6 @@
     "translation": "번역",
     "tools": "도구",
     "more": "더 많은 탐색",
-    "report_error": "오류 신고",
-    "report_error_desc": "오류를 발견하면 '의견'을 클릭하여 수정 요청 메시지를 남기세요. 가능한 빨리 처리하겠습니다.",
-    "report_default_placeholder": "오류 시:",
     "go_feedback": "의견 남기기"
   },
   "poem_list": {
@@ -45,12 +41,8 @@
   "author_detail": {
     "title": "시인"
   },
-  "ci_pai_ming": {
-    "title_meta": "사파명 페이지 {0}",
-    "description": "시의 표준적인 곡조를 위한 이름으로, 즉, 당송시대에 자주 사용되어 시에 삽입되는 음악의 큰 부분의 원래 이름입니다. 고정된 형식과 음조로, 시의 리듬과 음조를 결정합니다."
-  },
   "search": {
-    "placeholder": "시인, 시, 명구 검색",
+    "placeholder": "시, 명구 검색",
     "empty": "관련 시를 찾을 수 없습니다"
   },
   "tag": {

@@ -97,7 +97,7 @@ export default function CommandDemo({
                         }),
                       }}
                     />
-                    <span className="mx-0.5 text-muted-foreground/50">|</span>
+                    {/* <span className="mx-0.5 text-muted-foreground/50">|</span>
                     <span
                       onClick={(e) => {
                         e.stopPropagation();
@@ -110,7 +110,7 @@ export default function CommandDemo({
                           return `<span class="text-blue-500 bg-blue-50">${e}</span>`;
                         }),
                       }}
-                    />
+                    /> */}
                     {value && content && (
                       <span className="line-clamp-1 flex-1">
                         <span className="mx-0.5 text-muted-foreground/50">

@@ -158,7 +158,7 @@ export const poemRouter = createTRPCRouter({
           },
           take: 500,
         });
-
+        // TODO: recommend
         data = temp.filter((item) => item.translation).slice(0, pageSize);
       } else {
         let temp: (Poem & {

@@ -310,14 +310,6 @@ export default async function Page({ params, searchParams }: Props) {
           tagIds={poem.tags.map((item) => item.id)}
           lang={params.lang}
         />
-        <h2 id={"#" + dict.poem.report_error} prose-h2="">
-          {dict.poem.report_error}
-        </h2>
-        <p className="prose-p">
-          <InfoIcon className="-mt-1.5 mr-2 inline-block" />
-          {dict.poem.report_error_desc}
-          <GoFeedback id={poem.id} lang={params.lang} dict={dict} />
-        </p>
       </article>
 
       <footer className="h-16"></footer>

@@ -70,8 +70,7 @@ export default async function Layout({
                   className="text-primary-outline flex h-16 items-center justify-center font-serif text-[2.5rem] font-bold"
                   style={{ fontFamily: "Palatino,Times New Roman" }}
                 >
-                  AsPoem
-                  <span className="text-primary">.com</span>
+                  MENG <span className="text-primary"> XU</span>
                 </Link>
               </header>
 
