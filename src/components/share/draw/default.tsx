@@ -80,7 +80,7 @@ const DrawDefaultPreview = (props: Props) => {
         </div>
 
         <span className="absolute bottom-2 right-2 opacity-70">
-          Meng 诗 - https://poems.amonxu.com
+          Meng诗 - https://poems.amonxu.com
         </span>
       </div>
     </div>

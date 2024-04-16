@@ -185,7 +185,7 @@ export default function PreviewPrint({
           {opts.translation && (
             <p className="flex h-20 items-center justify-between text-2xl text-neutral-400">
               <span className="text-5xl text-black">译文</span>
-              poems.amonxu.com | Meng 诗 - 诗歌是打向这个世界的子弹
+              poems.amonxu.com | Meng诗 - 诗歌是打向这个世界的子弹
             </p>
           )}
 

@@ -72,7 +72,7 @@ export default async function GET({
             fontSize: 24,
           }}
         >
-          aspoem
+          Meng诗
         </p>
       </div>
     ),

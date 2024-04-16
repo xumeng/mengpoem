@@ -9,7 +9,7 @@ export function isMobile() {
   return "ontouchstart" in document.documentElement;
 }
 
-export const MyHost = `https://poem.amonxu.com`;
+export const MyHost = `https://poems.amonxu.com`;
 
 /** 可用其他颜色 */
 export const colors = [
