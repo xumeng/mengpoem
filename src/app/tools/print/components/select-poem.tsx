@@ -78,7 +78,7 @@ export function SelectPoem(props: {
       <PopoverContent className="w-64 p-0" align="start">
         <Command className="w-full">
           <CommandInput
-            placeholder="搜索标题、作者、内容"
+            placeholder="搜索标题、内容"
             value={value}
             onValueChange={setValue}
           />

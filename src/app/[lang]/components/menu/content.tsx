@@ -83,7 +83,7 @@ export function Content({
             label: <span className="font-mono">{}</span>,
             icon: UserRound,
             variant: /^(\/author)/.test(pathname) ? "default" : "ghost",
-            href: `/${lang}/author/3`,
+            href: `/${lang}/author/1`,
           },
         ]}
       />

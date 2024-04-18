@@ -212,20 +212,22 @@ export default async function Page({ params, searchParams }: Props) {
           </div>
         )}
 
-        <div className="mt-12" id="translation">
-          <h2
-            id={"#" + dict.poem.translation}
-            className="prose-h2 mb-6 text-left"
-          >
-            {dict.poem.translation}
-          </h2>
+        {!!poem.translation && poem.translation.trim().length > 0 && (
+          <div className="mt-12" id="translation">
+            <h2
+              id={"#" + dict.poem.translation}
+              className="prose-h2 mb-6 text-left"
+            >
+              {dict.poem.translation}
+            </h2>
 
-          {(poem.translation || "暂未完善")
-            .split("\n")
-            .map((line, index) =>
-              line ? <p key={index}>{line}</p> : <br key={index} />,
-            )}
-        </div>
+            {(poem.translation || "暂未完善")
+              .split("\n")
+              .map((line, index) =>
+                line ? <p key={index}>{line}</p> : <br key={index} />,
+              )}
+          </div>
+        )}
 
         <h2 id={"#" + dict.poem.tools} prose-h2="">
           {dict.poem.tools}

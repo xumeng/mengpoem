@@ -46,23 +46,23 @@ export const ToggleOption = () => {
         <label htmlFor="border">边框</label>
       </div>
 
-      <div className="flex items-center space-x-2">
+      {/* <div className="flex items-center space-x-2">
         <Checkbox
           id="py"
           checked={opts.py}
           onCheckedChange={() => toggle("py")}
         />
         <label htmlFor="py">拼音</label>
-      </div>
+      </div> */}
 
-      <div className="flex items-center space-x-2">
+      {/* <div className="flex items-center space-x-2">
         <Checkbox
           id="translation"
           checked={opts.translation}
           onCheckedChange={() => toggle("translation")}
         />
         <label htmlFor="translation">译文</label>
-      </div>
+      </div> */}
     </div>
   );
 };
