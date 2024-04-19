@@ -6,6 +6,7 @@
     "author": "诗作者",
     "tag": "标签",
     "contact": "联系方式",
+    "thank_desc": "本站制作基于",
     "theme": "主题",
     "language": "语言",
     "print": "打印"
@@ -31,9 +32,6 @@
     "description_improve": "需要完善的诗词都在这里，快来帮助我们完善吧！",
     "tab_new": "最新",
     "tab_improve": "待完善"
-  },
-  "author": {
-    "title": "诗作者"
   },
   "author_detail": {
     "title": "诗作者"

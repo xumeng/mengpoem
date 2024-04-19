@@ -39,7 +39,6 @@ export function Content({
   const pathname = usePathname().replace(`/${lang}`, "");
 
   const { data: poemCount } = api.poem.count.useQuery();
-  const { data: authorCount } = api.author.count.useQuery();
   const { data: tagsCount } = api.tag.count.useQuery();
   const router = useRouter();
 
@@ -87,7 +86,6 @@ export function Content({
           },
         ]}
       />
-
       <div className="px-4">
         <Separator className="my-4" />
       </div>
@@ -187,6 +185,22 @@ export function Content({
           </Button>
         ))}
       </nav>
+
+      <div
+        className="flex space-x-2 p-4 text-xs text-gray-400"
+        style={{ position: "fixed", right: "0", bottom: "0" }}
+      >
+        {dict.menu.thank_desc}
+        <Link
+          aria-label="AsPoem 现代化诗词学习网站"
+          title="AsPoem 现代化诗词学习网站"
+          href="https://aspoem.com/"
+          target="_blank"
+          className="flex cursor-pointer font-semibold"
+        >
+          &nbsp; AsPoem
+        </Link>
+      </div>
     </div>
   );
 }
